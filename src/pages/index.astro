@@ -1,0 +1,40 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Header from '../components/Header.jsx';
+import Hero from '../components/Hero.jsx';
+import Section from '../components/Section.jsx';
+import Section2x2 from '../components/Section2x2.jsx';
+import StatSimple from '../components/StatSimple.jsx';
+import TestimonialSimple from '../components/TestimonialSimple.jsx';
+import BlogSectionThreeColumn from '../components/BlogSectionThreeColumn.jsx';
+import HeaderWithStats from '../components/HeaderWithStats.jsx';
+import Pricing from '../components/Pricing.jsx';
+import Newsletter from '../components/Newsletter.jsx';
+import CtaSection from '../components/CtaSection.jsx';
+import Contact from '../components/Contact.jsx';
+import OurTeam from '../components/OurTeam.jsx';
+import Content from '../components/Content.jsx';
+import LogoCloud from '../components/LogoCloud.jsx';
+import Banner from '../components/Banner.jsx';
+---
+
+<Layout title="Welcome to Amdlemos.">
+    <main>
+        <Header client:load />
+        <Hero client:load />
+        <Section />
+        <LogoCloud />
+        <Section2x2 />
+        <StatSimple />
+        <TestimonialSimple />
+        <Banner />
+        <BlogSectionThreeColumn />
+        <HeaderWithStats />
+        <Pricing />
+        <Newsletter />
+        <CtaSection />
+        <Contact />
+        <OurTeam />
+        <Content />
+    </main>
+</Layout>
