@@ -1,5 +1,5 @@
 {
-  "name": "",
+  "name": "amdlemos",
   "type": "module",
   "version": "0.0.1",
   "scripts": {
@@ -12,7 +12,7 @@
   "dependencies": {
     "@astrojs/react": "^3.1.0",
     "@astrojs/tailwind": "^5.1.0",
-    "@headlessui/react": "^0.0.0-insiders.834dbf4",
+    "@headlessui/react": "^1.7.18",
     "@headlessui/tailwindcss": "^0.2.0",
     "@heroicons/react": "^2.1.1",
     "@types/react": "^18.2.67",
